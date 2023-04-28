@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+  background: -webkit-linear-gradient(171deg, #121212,#181818);
+  background: linear-gradient(171deg, #121212,#181818);
+  font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
+  color: white;
+  justify-content: center;
+}
+
+header {
+  background: -webkit-linear-gradient(90deg, #670000,#db0000,#ff2d2d);
+  background: linear-gradient(90deg, #670000,#db0000,#ff2d2d);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  text-align: center;
+}
+

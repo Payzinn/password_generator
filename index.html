@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Генератор случайных символов</title>
+</head>
+<body>
+</body>
+</html>
+</head>
+<body>
+
+ <h1>Генератор случайных паролей на JavaScript</h1>
+ 
+<p>Укажите какие символы включать в пароль:</p>
+<ul class="password__generate">
+<li><input id="arr_num" type="checkbox" checked="checked"> Цифры</li>
+<li><input id="arr_en" type="checkbox" checked="checked"> Английский строчные буквы</li>
+<li><input id="arr_EN" type="checkbox"> Английский заглавные буквы</li>
+<li><input id="arr_symb" type="checkbox"> Спецсимволы</li>
+</ul>
+<p>Количество символов в пароле: <input id="passLenght" type="number" step="1" min="4" max="20" value="7"></p>
+<p>Сгенерированный пароль: <span id="result" style="color:rgb(255, 0, 0)">3%+v</span></p>
+
+<p><button id="pass_start">Сгенерировать пароль</button></p>
+<p>&nbsp;</p>
+<hr>
+
+<script src="random.js"></script>
+            
